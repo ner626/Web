@@ -1,0 +1,46 @@
+
+h1{
+  text-align:center; /*centrar texto*/
+  color: #FFF;
+ 	margin-top: 80px;
+  font-weight: 400;/*tamaño letra*/
+}
+
+body{
+  background:#2d2c41;
+  font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+ 
+}
+input[type=submit] {
+  width: 100%;
+  padding: 14px 20px;
+  background-color: #2d2c41;/*color fondo boton*/
+  color: white;
+  margin: 8px 0;
+  border: 1px solid #ccc;/*borde color gris*/
+  border-radius: 4px;/*borde redondeado*/
+  font-weight: bold;
+}
+
+input[type=submit]:hover {
+  background-color: #b63b4d; /*cambia color boton cuando pasa por encima*/
+}
+
+
+input[type=text], select {
+  width: 95.5%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;/*borde redondeado*/
+}
+
+
+
+fieldset {
+  background-color:#e0e0eb ;/*color */
+  width: 50%;/*tamaño*/
+  margin:auto;  /* centrar*/
+  border-radius: 4px;/*borde redondeado*/
+  border:none;
+}

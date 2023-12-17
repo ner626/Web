@@ -1,0 +1,73 @@
+h1 {
+    color: black;
+    font-size: 30px;
+    font-weight: 400;/*tamaño letra*/
+    text-align: center;
+    margin-top: 80px;
+}
+
+body {
+   font-family: 'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;
+   background: #e0e0eb;/*fondo*/
+
+}
+
+th {
+   background: #2d2c41;/*fondo*/
+}
+table, td, th {
+ border: 1px solid black;/*tamaño borde*/
+ padding:20px;/*distancia letras*/
+ margin:auto;  /* centrar tabla*/
+ color:white;
+ 
+}
+
+
+td {
+ padding-top: 14px;/*distancia letras del borde*/
+ padding-bottom: 14px;/*distancia letras del borde*/
+ background-color: #f0f8ff;/*color fondo */
+ color: black; /*color letras encabezado*/
+ width:20%;
+
+}
+
+table td:first-child {
+ padding-top: 14px;/*distancia letras del borde*/
+ padding-bottom: 14px;/*distancia letras del borde*/
+ background-color: #f0f8ff;/*color fondo */
+ color: black; /*color letras encabezado*/
+ background-color: #b63b4d;
+ font-weight: bold;
+ width:1%;
+}
+table td:last-child {
+ padding-top: 14px;/*distancia letras del borde*/
+ padding-bottom: 14px;/*distancia letras del borde*/
+ background-color: #f0f8ff;/*color fondo */
+ color: black; /*color letras encabezado*/
+ width:14%;
+}
+
+table {
+ border-collapse: collapse;/*unir bordes*/
+
+}
+input[type=submit] {
+ width: 60%;
+ padding: 14px 20px;
+ background-color: #2d2c41;/*fondo*/
+ color: white;
+ margin: 0 auto; /*centrar boton*/
+ display: block;/*centrar boton*/
+ margin: 8px auto; /*centrar boton*/
+ display: block;/*centrar boton*/
+ border: none;
+ border-radius: 4px;/*borde redondeado*/
+ font-weight: bold;
+}
+
+input[type=submit]:hover {
+ background-color: #b63b4d; /*cambia color boton cuando pasa por encima*/
+}
